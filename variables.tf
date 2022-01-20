@@ -1,10 +1,9 @@
-# Project-specific variables
-
-variable "project" {
-  description = "Value for the 'Project' tag"
+variable "aws_region" {
+  type = map
+  default = "eu-west-1"
 }
 
-variable "environment" {
-  description = "Value for the 'Environment' tag"
+variable "assume_role" {
+  type = map
+  default = "arn:aws:iam::00000000:role/stylesage-admins"
 }
-
