@@ -5,5 +5,5 @@ variable "aws_region" {
 
 variable "assume_role" {
   type = map
-  default = "arn:aws:iam::00000000:role/stylesage-admins"
+  default = "arn:aws:iam::00000000:role/ricardoplaza-admins"
 }
